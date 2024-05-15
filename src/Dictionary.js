@@ -6,14 +6,14 @@ export default function Dictionary(){
     
     
    function handleResponse(response){
-   console.log(response.data[0]);
+   console.log(response.data);
 
 }
 
    function handleSearch(event){
     event.preventDefault();
-  
-    let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+    let apiKey="98f12063t8f0b4be43fb6oa12441998c";
+    let apiUrl=`https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
   }
     
