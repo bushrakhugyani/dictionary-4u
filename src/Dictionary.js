@@ -5,24 +5,20 @@ export default function Dictionary(){
   let [keyword, setKeyword]= useState("");
     
     
-function handleResponse(response){
-console.log(response.data[0]);
+   function handleResponse(response){
+   console.log(response.data[0]);
 
 }
 
-  function handleSearch(event){
+   function handleSearch(event){
     event.preventDefault();
   
-
     let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
   }
     
   
-
-
-
-  function handleKeywordChange(event){
+    function handleKeywordChange(event){
         event.preventDefault();
         setKeyword(event.target.value);
   }
