@@ -9,7 +9,7 @@ function App() {
      English Dictionary
       </header>
       <main>
-        < Dictionary />
+        < Dictionary defaultKeyword="nature"  />
       </main>
       <footer className="App-footer">
   
