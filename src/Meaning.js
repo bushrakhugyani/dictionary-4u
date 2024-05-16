@@ -13,7 +13,6 @@ export default function Meaning(props) {
         <div className="example">{props.meaning.example}</div>
       </h4>
 
-    
     </div>
   );
 }
