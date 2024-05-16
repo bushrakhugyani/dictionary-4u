@@ -12,8 +12,11 @@ function App() {
         < Dictionary />
       </main>
       <footer className="App-footer">
-        Coded by Bushra Khugyani
+  
+         This project was coded by Bushra Khugyani and is {" "}
+         <a rel="noreferrer" href="https://github.com/bushrakhugyani/dictionary-4u" target="_blank"> open-sourced on GitHub</a>
       </footer>
+
     </div>
   );
 }

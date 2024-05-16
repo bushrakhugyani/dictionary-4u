@@ -5,6 +5,7 @@ import "./Results.css";
 
 export default function Result(props) {
   if (props.results) {
+    console.log(props.results);
     return (
       <div className="Results">
         <section>
@@ -12,14 +13,15 @@ export default function Result(props) {
           <div className="phonetic">/{props.results.phonetic}/</div>
         </section>
   
-{props.results.meanings.map(function (meaning, index) {
-  return (
-    <section key={index}>
-      <Meaning meaning={meaning} />
-    </section>
-  );
-})}
-  
+        {props.results.meanings.map(function (meaning, index) {
+          
+          return (
+            <section key={index}>
+              <Meaning meaning={meaning} />
+             </section>
+          )
+        })};
+      
         
       </div>
     );
@@ -27,5 +29,31 @@ export default function Result(props) {
     return null ;
   }
 }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
 
 
