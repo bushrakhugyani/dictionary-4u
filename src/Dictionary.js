@@ -49,15 +49,17 @@ export default function Dictionary(props){
    
         <div className="Dictionary">
          <section>
-          <form onSubmit={handleSubmit} >
+          <form  onSubmit={handleSubmit} >
           <label>What word do you want to look up?</label>
+            <div className="input-data">
             <input type="search"
-            placeholder="Search for a word"
+            placeholder="Search for a word..."
             defaultValue={props.defaultKeyword}
              autoFocus={true}
              className="form-control search-input"
              onChange={handleKeywordChange}  />
-            <input type="submit"  value="search"  />
+            <input type="submit"  value="search" className="button-submit" />
+            </div>
         </form>
         <small className="hint">i.e. country, humanity, justic, coding</small>
         </section>

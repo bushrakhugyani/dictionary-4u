@@ -6,7 +6,7 @@ import "./Results.css";
 
 export default function Result(props) {
   if (props.results) {
-    console.log(props.results);
+    
     return (
       <div className="Results">
         <section>
