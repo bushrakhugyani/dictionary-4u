@@ -26,5 +26,9 @@ body {
   text-decoration: none;
   color:#bdf70d;
 }
+@media (max-width: 768px){
 
-  
+  .App .header{
+  font-size: 40px;
+}
+}

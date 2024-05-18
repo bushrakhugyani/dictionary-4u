@@ -31,7 +31,7 @@
     padding: 22px;
     border: 1px solid #dddddd;
     border-radius: 6px;
-     width: 75%;
+     width: 85%;
   }
   
   
@@ -54,6 +54,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     padding: 18px;
+    margin:20px;
   }
   
  
@@ -67,5 +68,38 @@
     border-radius: 4px;
   }
  
+  @media (max-width: 768px){
+  
+  .Dictionary section {
+    margin:5px 10px;
     
- 
+  
+  
+  }
+  .Dictionary .hint {
+    font-size: 14px;
+  }
+  .Dictionary label{
+    font-size: 20px;
+  }
+
+  
+  
+  .Dictionary .search-input{
+  height:56px;
+  font-size: 18px;
+  }
+  .Dictionary .button-submit{
+    font-size:small;
+    width:30%; 
+    text-align: center; 
+    margin:5px; 
+    
+  }
+
+
+
+
+
+
+ }

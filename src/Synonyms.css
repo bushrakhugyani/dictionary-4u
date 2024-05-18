@@ -1,6 +1,6 @@
 .Synonyms {
     margin: 30px 0 0;
-    font-size: 24px;;
+    font-size: 24px;
   }
   
   .Synonyms ul {
@@ -14,7 +14,16 @@
     margin-right: 15px;
     font-size: 16px;
   }
-.Synonyms  .synonyms-data{
-    font-size: 18px;
-    font-weight:500;
+
+@media (max-width: 768px){
+
+  .Synonyms {
+    font-size: 20px;
+  }
+
+  .Synonyms  .synonyms-data{
+    font-size:10px;
+  }
+
+
 }

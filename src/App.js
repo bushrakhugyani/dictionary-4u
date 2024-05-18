@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-       Treasure Book
+       Treasure Dictionary
       </header>
       <main>
         < Dictionary defaultKeyword="nature"  />
