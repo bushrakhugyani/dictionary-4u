@@ -16,14 +16,7 @@
   }
 
 @media (max-width: 768px){
-
-  .Synonyms {
+    .Synonyms {
     font-size: 20px;
   }
-
-  .Synonyms  .synonyms-data{
-    font-size:10px;
-  }
-
-
 }
